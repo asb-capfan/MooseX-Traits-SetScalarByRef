@@ -9,7 +9,7 @@ WriteMakefile(
         # e.g., Module::Name => 1.1
         'Moose'         => 2.0604,
         'Moose::Util::TypeConstraints'  => 2.0604,
-        'ExtUtils::MakeMaker'           => 6.6302,
+        'ExtUtils::MakeMaker'           => 6.64,
         'Test::More'    => 0.98,
         'Scalar::Util'  => 1.27,
     },
@@ -21,5 +21,10 @@ WriteMakefile(
     ABSTRACT_FROM  => 'lib/MooseX/Traits/SetScalarByRef.pm', # retrieve abstract from module
     AUTHOR         => 'Alexander Becker <asb@cpan.org>',
     LICENSE        => 'perl_5',
+    META_MERGE     => {
+        resources => {
+            repository => 'https://github.com/asb-capfan/MooseX-Traits-SetScalarByRef',
+        },
+    },
     MIN_PERL_VERSION => 5.010,
 );
