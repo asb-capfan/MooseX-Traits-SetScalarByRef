@@ -12,12 +12,14 @@ WriteMakefile(
         'ExtUtils::MakeMaker'           => 6.6302,
         'Test::More'    => 0.98,
         'Scalar::Util'  => 1.27,
+    },
+    TEST_REQUIRES => {
         # optional, as only useful for DEV
         # Test::Pod => 1.0,
         # Test::Pod::Coverage => 1.08,
     },
     ABSTRACT_FROM  => 'lib/MooseX/Traits/SetScalarByRef.pm', # retrieve abstract from module
-    AUTHOR         => 'Alex Becker <c a p f a n at g m x write_Adot-here d e>',
+    AUTHOR         => 'Alexander Becker <asb@cpan.org>',
     LICENSE        => 'perl_5',
     MIN_PERL_VERSION => 5.010,
 );
