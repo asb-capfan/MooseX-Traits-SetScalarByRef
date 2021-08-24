@@ -4,6 +4,11 @@ MooseX-Traits-SetScalarByRef
 This module provides a method to hold a variable reference as value
 of a Moose Attribute.
 
+You can read a nicely formatted version of the documentation for
+this module online:
+
+    https://metacpan.org/pod/MooseX::Traits::SetScalarByRef
+
 INSTALLATION
 
 You should be able to install this using your usual method for installing
