@@ -5,6 +5,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'MooseX::Traits::SetScalarByRef',
     VERSION_FROM      => 'lib/MooseX/Traits/SetScalarByRef.pm', # finds $VERSION
+    ABSTRACT_FROM  => 'lib/MooseX/Traits/SetScalarByRef.pm', # retrieve abstract from module
     PREREQ_PM         => {
         # e.g., Module::Name => 1.1
         'Moose'         => 2.0604,
@@ -18,7 +19,6 @@ WriteMakefile(
         # Test::Pod => 1.0,
         # Test::Pod::Coverage => 1.08,
     },
-    ABSTRACT_FROM  => 'lib/MooseX/Traits/SetScalarByRef.pm', # retrieve abstract from module
     AUTHOR         => 'Alexander Becker <asb@cpan.org>',
     LICENSE        => 'perl_5',
     META_MERGE     => {
